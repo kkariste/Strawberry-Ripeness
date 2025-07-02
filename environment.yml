@@ -1,0 +1,15 @@
+name: anomaly
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - spyder
+  - conda-forge::pytorch-gpu
+  - conda-forge::opencv
+  - conda-forge::matplotlib
+  - conda-forge::scikit-learn
+  - conda-forge::seaborn
+  - conda-forge::tqdm
+  - conda-forge::pandas
+  - conda-forge::scikit-image
+
