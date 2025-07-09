@@ -1,7 +1,7 @@
 # Classification de la maturité des fraise (Strawberry Ripeness classification)
 
 Le projet vise à améliorer la production industrielle des fraises.
-On cherche à classer les fraises en quatre groupes de maturation : non-mûre (0), semi-mûre (1), presque mûre (2) et mûre (3). On tente d'explorer deux approches : une non supervisée par K-means et l'autre supervisée par réseaux convolutifs CNN.
+On cherche à classer les fraises en quatre groupes de maturation : `non-mûre (0)`, `semi-mûre (1)`, `presque mûre (2)` et `mûre (3)`. On tente d'explorer deux approches : une non supervisée par K-means et l'autre supervisée par réseaux convolutifs CNN.
 
 ## Approche Non Supervisée Kmeans
 La première méthode dans le dossier `Clustering` se base sur le clustering K-means dans différents espaces de couleurs : RGB, HSV et Lab. On classifie alors soit en utilisant la moyenne des couleurs soit l'histogramme 2d sur les canaux appropriés.
