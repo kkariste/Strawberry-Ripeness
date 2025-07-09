@@ -8,30 +8,30 @@ La première méthode dans le dossier `Clustering` se base sur le clustering K-m
 
 ### Résultats Clustering
 
-`Clustering` 
+#### Clustering 
 
-| Image 1 | Image 2 | Image 3 |
+| HSV+Hist2D | Lab+Hist2D | RGB+Hist2D |
 |---------|---------|---------|
 | ![](Clustering/Clustering-in-HSV-with-histogram2d-values.png) | ![](Clustering/Clustering-in-Lab-with-histogram2d-values.png) | ![](Clustering/Clustering-in-RGB-with-histogram2d-values.png) |
 
-| Image 4 | Image 5 | Image 6 |
+| HSV+Mean | Lab+mean | RGB+mean |
 |---------|---------|---------|
 | ![](Clustering/Clustering-in-HSV-with-mean-values.png) | ![](Clustering/Clustering-in-Lab-with-mean-values.png) | ![](Clustering/Clustering-in-RGB-with-mean-values.png) |
 
 ---
-`Matrice de confusion`
+#### Matrice de confusion
 
-| Matrice 1 | Matrice 2 | Matrice 3 |
+| HSV+Hist2D | Lab+Hist2D | RGB+Hist2D |
 |-----------|-----------|-----------|
 | ![](Clustering/Matrice-de-confusion-HSV-et-histogram2d.png) | ![](Clustering/Matrice-de-confusion-Lab-et-histogram2d.png) | ![](Clustering/Matrice-de-confusion-RGB-et-histogram2d.png) |
 
-| Matrice 4 | Matrice 5 | Matrice 6 |
+| HSV+Mean  | Lab+mean  | RGB+mean |
 |-----------|-----------|-----------|
 | ![](Clustering/Matrice-de-confusion-HSV-et-mean.png) | ![](Clustering/Matrice-de-confusion-Lab-et-mean.png) | ![](Clustering/Matrice-de-confusion-RGB-et-mean.png) |
 
 ---
 
-`Tableau des performances des modèles de clustering`
+#### Tableau des performances des modèles de clustering
 
 | Modèles       | Silhouette | Inertie   | Accuracy | ARI    |
 |---------------|------------|-----------|----------|--------|
@@ -47,10 +47,14 @@ La deuxième méthode dans le dossier `CNN` utilise des réseaux convolutifs pou
 
 ### Résultats Classification
 
+#### Perte + Accuracy
+![](CNN/Loss_Acc.png)
 
+#### Area Under the Curve (AUCROC)
+![](CNN/AUROC.png)
 
-
-
+#### Matrice de confusion
+![](CNN/confusion_matrix.png)
 
 
 
