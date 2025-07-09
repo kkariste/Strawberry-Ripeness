@@ -46,6 +46,7 @@ La première méthode dans le dossier `Clustering` se base sur le clustering K-m
 La deuxième méthode dans le dossier `CNN` utilise des réseaux convolutifs pour la classification. Plus précisément un fine-tuning est effectué sur resnet18 préentrainé pour correspondre à notre tâche.
 
 ### Résultats Classification
+**Le F1-Score est de 0.95 et l'accuracy de 94.51% sur les données de test**
 
 #### Perte + Accuracy
 ![](CNN/Loss_Acc.png)
